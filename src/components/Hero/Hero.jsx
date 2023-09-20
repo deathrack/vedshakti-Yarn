@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Hero.css"
 import {HiLocationMarker} from 'react-icons/hi' 
-import CountUp from 'react-countup/build/CountUp';
+import CountUp from 'react-countup';
 
 const Hero = () => {
   return (
@@ -28,10 +28,11 @@ const Hero = () => {
            <div className='flexCenter stats'>
               <div className='flexColStart stat'>
                  <span>
-                    <CountUp/>
+                    <CountUp end={100}/>
                     </span><span>
                         Premium Products
                  </span>
+                 
               </div>  
            </div>
         </div>
