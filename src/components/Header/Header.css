@@ -1,0 +1,18 @@
+.h-wrapper{
+    background: rgba(121, 106, 5, 0.21);
+    
+}
+.h-container{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.h-menu{
+    gap : 2rem;
+}
+
+.h-menu>*:hover{
+    cursor:pointer;
+}
